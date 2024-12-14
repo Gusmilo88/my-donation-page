@@ -25,11 +25,6 @@ export const DonationProgress = ({ currentAmount, goalAmount, currency }: Donati
       <div className="text-center">
         {/* Imagen más pequeña y centrada */}
         <div className="mb-6 flex justify-center">
-          <img 
-            src="/logoAl.png" 
-            alt="Animal Libre" 
-            className="w-64 h-auto object-contain" // Ancho fijo de 256px
-          />
         </div>
         
         <h2 className="text-2xl font-bold mb-4 text-black">Meta de Donaciones</h2>
